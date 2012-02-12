@@ -36,26 +36,26 @@ External Libraries
 
 This software uses the following external libraries and CSS files:
 
-* [SimplePie](http://simplepie.org/) 
-	Version 1.2.1-dev
-	Copyright 2004-2010 Ryan Parman, Geoffrey Sneddon, Ryan McCue
-	Released under the [BSD License](http://www.opensource.org/licenses/bsd-license.php)
+* [SimplePie](http://simplepie.org/)   
+	Version 1.2.1-dev   
+	Copyright 2004-2010 Ryan Parman, Geoffrey Sneddon, Ryan McCue   
+	Released under the [BSD License](http://www.opensource.org/licenses/bsd-license.php)   
 
-* [Timthumb](http://code.google.com/p/timthumb/)
-	Version 2.8.2
-	Copyright Ben Gillbanks and Mark Maunder
-	Based on work done by Tim McDaniels and Darren Hoyt
-	Released under [GNU General Public License, version 2](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
+* [Timthumb](http://code.google.com/p/timthumb/)   
+	Version 2.8.2   
+	Copyright Ben Gillbanks and Mark Maunder   
+	Based on work done by Tim McDaniels and Darren Hoyt   
+	Released under [GNU General Public License, version 2](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)   
 
-* [YUI CSS Reset](http://yuilibrary.com/license/)
-	Version 3.4.1 (build 4118)
-	Copyright 2011 Yahoo! Inc. All rights reserved.
-	Licensed under the BSD License
+* [YUI CSS Reset](http://yuilibrary.com/license/)   
+	Version 3.4.1 (build 4118)   
+	Copyright 2011 Yahoo! Inc. All rights reserved.   
+	Licensed under the BSD License   
 
-* [BlueBubble 3.1](http://bluebubble.dosmundoscafe.com/)
-	Version 3.1 
-	Copyright Thomas Veit (WP 3.0 updates by Mike Walsh)
-	Released under [GNU GPL Version 3](http://www.opensource.org/licenses/gpl-3.0.html)
+* [BlueBubble 3.1](http://bluebubble.dosmundoscafe.com/)   
+	Version 3.1    
+	Copyright Thomas Veit (WP 3.0 updates by Mike Walsh)   
+	Released under [GNU GPL Version 3](http://www.opensource.org/licenses/gpl-3.0.html)   
 
 Folders, what is where?
 -----------------------
