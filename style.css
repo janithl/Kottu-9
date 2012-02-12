@@ -1,0 +1,379 @@
+/*
+YUI 3.4.1 (build 4118)
+Copyright 2011 Yahoo! Inc. All rights reserved.
+Licensed under the BSD License.
+http://yuilibrary.com/license/
+
+CSS reset
+*/
+html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}ol,ul{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:text-top}sub{vertical-align:text-bottom}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit}input,textarea,select{*font-size:100%}legend{color:#000}
+
+/*
+Based on:
+
+Theme Name: BlueBubble 3.1
+Theme URI: http://bluebubble.dosmundoscafe.com/
+Alternate Theme URI: http://www.thomasveit.com/bluebubble-free-premium-wordpress-portfolio-theme/
+Description: Minimal &amp; Elegant Portfolio Theme - Wordpress 3.0 ready
+Version: 3.1 
+Author: Thomas Veit (WP 3.0 updates by Mike Walsh)
+Author URI: http://bluebubble.dosmundoscafe.com/free-theme-bluebubble-v3-0/
+Updates Author URI: http://arte.dosmundoscafe.com
+
+The CSS, XHTML and design is released under GPL:
+http://www.opensource.org/licenses/gpl-3.0.html
+*/
+
+
+body {
+	font-family: Cabin, Tahoma, Arial, sans-serif;
+	font-size: 12px;
+}
+
+h1 {font-size: 30px; padding: 3px 0;}
+h2 {font-size: 18px; padding: 3px 0;}
+h3 {font-size: 14px;}
+h4 {font-size: 12px;}
+
+
+blockquote{
+	border-left:4px solid #ddd;
+	margin-left:15px;
+	padding:0 12px 0 12px;
+}
+
+code{
+	font-family:"Courier New", Courier, monospace;
+}
+
+strong {
+	font-weight: 700;
+}
+
+em {
+	font-style:italic;	
+}
+
+a{
+	color:#0ab9e5;
+	text-decoration:none;
+	outline: none;
+}
+
+a:hover{text-decoration: underline;}
+
+#dlink {
+	color: #F40;
+}
+
+#container {
+	width: 960px;
+	margin: 0 auto;
+	padding:0;
+	color:#333;
+	overflow: hidden;
+}
+	
+/* header */
+
+#header {
+	margin: 0 0 20px;
+	padding: 5px 40px;
+	background: #333;
+	height: 20px;
+}
+
+#header .user {
+	float:right;
+	color: #EEE;
+}
+
+#header .notifs {
+	float:right;
+	height: 20px;
+	min-width: 20px;
+	margin: 0 10px;
+	padding: 0 2px;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	color:#FFF; 
+	background: #C00;
+}
+
+a.notiflink:hover{text-decoration: none;}
+
+#header #nonotifs {
+	color:#AAA;
+	background: #777;
+}
+
+/* content */
+
+
+#content {
+	float: right;
+	width:960px;
+	overflow: hidden;
+}
+
+#infobox {
+	overflow: hidden;
+	width: 960px;
+}
+
+.threadinfo {
+	text-align: center;
+}
+
+.threadesc {
+	padding: 20px 200px;
+	line-height: 20px;
+	float: left;
+	width: 400px;
+	text-align: justify;
+}
+
+.postthumb {
+	display:inline;
+	float: left;
+	margin-right: 10px;
+}
+
+.anncont {
+	background: #EFF3FF;
+	border: 1px solid #ACE;
+	padding: 10px;
+}
+
+.reply {
+	clear:both;
+	text-align:center;
+	padding:10px 0;
+}
+
+.replylink {
+	float: right;
+}
+
+.incom {
+	clear: both;
+	width: 100%;
+	padding: 2px 0;
+	border-top: 1px dotted #EEE;
+}
+
+.ts {
+	color: #CCC;
+}
+
+.mainnav {
+	margin: 10px 0;
+}
+
+.mainnav ul {
+	margin-left:0;
+}
+
+.mainnav ul li {
+	float: left;
+	list-style: none;
+}
+
+.mainnav ul li a {
+	padding: 5px 10px;
+	margin:0;
+	display: block;
+	font-size: 18px;
+}
+
+.mainnav ul li a:hover {
+	background:#1CF;
+	color: #FFF;
+	text-decoration: none;
+}
+
+.mainnav .selected a {
+	background:#0AB9E5;
+	color: #FFF;
+	text-decoration: none;
+}
+
+.mainnav .feed a {
+	background:#FE6602;
+	color: #FFF;
+	text-decoration: none;
+}
+
+.mainnav .feed a:hover {
+	background:#FF701F;
+}
+
+li .act, li .ann, li .mem {	
+	list-style: none;
+}
+
+.pbox {
+	clear:both;
+	position: relative;
+	line-height: 20px;
+	width: 480px;
+	text-align: justify;
+	padding: 10px 0;
+}
+
+.clear {
+	clear:both;
+	margin-bottom: 10px;
+}
+
+.maincol {
+	position: relative;
+	float: right;
+	width: 660px;
+	text-align: justify;
+	line-height: 20px;
+}
+
+.post {
+	margin-top: 5px;
+	margin-left: 40px;
+}
+
+.sidebar {
+	margin: 10px 0;
+	float: left;
+	width: 220px;
+	text-align: justify;
+	line-height: 20px;
+}
+
+.sidebar .title {
+	clear:both;
+	padding: 3px;
+	position: relative;
+	line-height: 20px;
+	width: 100%;
+	color: #333;
+	font-size: 14px;
+	font-weight: bold;
+	background: #EFF3FF;
+}
+
+.sidebar .desc {
+	clear:both;
+	padding: 3px;
+	position: relative;
+	width: 100%;
+	margin: 8px 0;
+}
+
+.sidebar .thumb {
+	margin-right: 3px;
+}
+
+.sidebar textarea {
+	background: #FFF;
+	border: 1px solid #CCC;
+    	color: #333;
+    	padding: 5px;
+	width: 206px;
+	height: 80px;
+}
+
+.sidebar .textbox {
+	background: #FFF;
+	border: 1px solid #CCC;
+    	color: #333;
+    	padding: 3px;
+	width: 210px;
+}
+
+.login .textbox {
+	padding: 2px;
+	border: 0;
+	width:130px;
+	margin-right: 5px;
+}
+
+.search {
+	margin: 0 30px;
+}
+
+.search form {
+	display:inline;
+}
+
+.search .textbox {
+	padding: 2px;
+	border: 0;
+	width:160px;
+	margin-right: 2px;
+	background: #777;
+}
+
+.search .textbox:focus {
+	background: #FFF;
+}
+
+
+.button {
+	background-color: #0AB9E5;
+	color: #FFF;
+	padding: 2px;
+	border: 0;
+}
+
+.error {
+	color: #CC0000;
+}
+
+.embeded {
+	clear: both;
+	text-align: center;
+}
+
+ul, ol {
+	margin-left: 10px;
+}
+
+.postbox {
+	background: #EEE;
+	padding: 10px;
+	margin: 20px auto;
+	width: 500px;
+	text-align: left;
+}
+
+.postbox textarea {
+	background: #FFF;
+	border: 1px solid #CCC;
+    	color: #333;
+    	padding: 5px;
+	width: 490px;
+	height: 80px;
+}
+
+.postbox .textbox {
+	background: #FFF;
+	border: 1px solid #CCC;
+    	color: #333;
+    	padding: 3px;
+	width: 320px;
+	float: right;
+}
+
+.postbox .ptext {
+	background: #FFF;
+	border: 1px solid #CCC;
+    	color: #333;
+    	padding: 3px;
+	width: 260px;
+	float: right;
+}
+
+#footer {
+	margin: 40px auto;
+	width:960px;
+	text-align: center;
+}
